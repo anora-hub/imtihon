@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1, 440px;
+
+}
+
+.pul {
+    color: #000000;
+}
+
+.h33 {
+    padding-left: 20px;
+}
+
+header {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.fas {
+    display: flex;
+    gap: 20px;
+    padding-right: 40px;
+}
+
+#hero {
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/rasm1.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 90px;
+
+}
+
+.h11 {
+    font-size: 58px;
+    color: #252B42;
+    padding-top: 100px;
+    padding-left: 110px;
+}
+
+.h44 {
+    padding-top: 40px;
+    padding-left: 110px;
+    font-size: 20px;
+    color: #737373;
+
+}
+
+.btn {
+    background-color: #FFA62B;
+    padding: 10px;
+    border-radius: 37px;
+    color: white;
+    margin-left: 110px;
+    margin-top: 10px;
+    border: none;
+    transition: o.5s;
+}
+
+.btn1 {
+    background-color: white;
+    color: #00A0C1;
+    border-radius: 37px;
+    padding: 10px;
+    border: none;
+    transition: 0.5s;
+
+}
+
+.btn1:hover {
+    background-color: #FFA62B;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+}
+
+.der {
+    background-color: white;
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    height: 170px;
+    box-shadow: 5px 5px 10px;
+}
+
+.uy {
+
+
+    background-color: white;
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    height: 170px;
+    box-shadow: 5px 5px 10px;
+}
+
+.bilmi {
+    background-color: #00A0C1;
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 6opx;
+    height: 170px;
+    box-shadow: 5px 5px 10px;
+
+
+
+}
+
+.sardor {
+    display: flex;
+    gap: 20px;
+    padding-left: 200px;
+
+}
+
+.statistik {
+    padding-bottom: 90px;
+    padding-top: -20px;
+}
+
+.sar {
+    margin-top: 100px;
+}
+
+.mi {
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    width: 200px;
+    height: 200px;
+
+}
+
+.mir {
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    width: 200px;
+    height: 200px;
+}
+
+.mira {
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    width: 200px;
+    height: 200px;
+}
+
+.miraj {
+
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    width: 200px;
+    height: 200px;
+
+}
+
+.nom {
+    margin: 20px;
+    display: flex;
+    margin-left: 180px;
+    gap: 20px
+}
+
+.re {
+    padding-left: 80px;
+    padding-top: 40px;
+
+
+}
+
+.mn {
+    padding-left: 80px;
+    padding-top: 20px;
+
+}
+
+.man {
+    padding-left: 40px;
+    padding-top: 5px;
+
+}
+
+.sarlovha {
+    margin-top: 120px;
+
+}
+
+.van {
+    background-color: white;
+    width: 230px;
+    height: 321px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.ren {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.ter {
+
+
+    padding-top: 40px;
+
+}
+
+.musi {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 120px;
+
+}
+
+.dild {
+    padding-left: 100px;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+
+.matn {
+    color: #737373;
+    padding-left: 20px;
+}
+
+.pos {
+    padding-left: 20px;
+    font-size: 16px;
+    padding-top: 70px;
+}
+
+.muh {
+    display: flex;
+    gap: 50px;
+    font-size: 14px;
+    padding-left: 120px;
+}
+
+.sho {
+    font-size: 40px;
+}
+
+.shoh {
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+.multichik {
+    display: flex;
+    gap: 15px;
+    padding-top: 150px;
+    padding-left: 120px;
+
+}
+
+.yur {
+    width: 300px;
+    height: 40px;
+}
+
+.bbr {
+    height: 40px;
+    width: 100px;
+    background-color: #FFA62B;
+    border: none;
+}
+
+.muslima {
+    display: flex;
+    gap: 200px;
+    padding-left: 200px;
+    padding-top: 80px;
+
+}
+
+.ortada {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.zx {
+    background-color: white;
+    box-shadow: 5px 5px 10px;
+    width: 300px;
+    height: 250px;
+}
+
+.rasm {
+    width: 70px;
+    height: 70px;
+
+}
+
+.huy {
+    display: flex;
+    gap: 15px;
+    padding-left: 150px;
+}
+
+.ota {
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-right: 60px;
+}
+
+.zxc {
+    padding-left: 80px;
+
+}
+
+.zxcv {
+    padding-left: 100px;
+
+
+}
+
+.zv {
+    margin-left: 100px;
+}
+
+.in {
+    width: 1000px;
+    height: 30px;
+    margin-left: 100px;
+
+}
+
+.ko {
+    padding-top: 100px;
+}
+
+.int {
+    width: 1000px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.bu {
+    width: 1000px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.fuh {
+    width: 1000px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.bh {
+    padding: 10px;
+    margin-left: 800px;
+    background-color: #FFA62B;
+}
+
+.footer-infos {
+    gap: 30px;
+    display: flex;
+    background-color: #16697A;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 600px;
+    color: white;
+    margin-top: 60px;
+}
+
+footer div ul li a {
+    color: white;
+}
+
+.buh {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nuj {
+    display: flex;
+    gap: 20px;
+    padding-right: 40px;
+}
+
+.kol {
+    padding-left: 50px;
+}
